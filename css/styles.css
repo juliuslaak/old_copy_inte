@@ -1,0 +1,136 @@
+/* ============================== */
+/* ! Layout for desktop version */
+/* ============================== */
+
+	html,body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		word-wrap: break-word;
+		height: 100%;
+	}
+	
+	img, p {
+		display: block;
+		float: none;
+	}
+
+	a:link, a:visited {
+		color: rgba(29, 118, 221, 1);
+		text-decoration: none;
+		transition: color 1s;
+		-moz-transition: color 1s; /* Firefox 4 */
+		-webkit-transition: color 1s; /* Safari and Chrome */
+		-o-transition: color 1s; /* Opera */
+	}
+
+	a:hover, a:active {
+		color: rgba(34, 34, 34, 1);
+	}
+
+	#wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -4.84em;
+	}
+
+	.kevad {
+		color: rgba(34, 34, 34, 1);
+		font-weight: 300;
+		text-transform: uppercase;
+		display: block;
+		}
+		#r1 {
+			font-size: 1.4em;
+			opacity: 0;
+			padding-top: 2em;
+			padding-bottom: 1em;
+		}
+		#r2 {
+			font-size: 1.8em;
+			opacity: 0;
+			padding-bottom: 3em;
+		}
+
+	.intelige {
+		opacity: 0;
+		margin-bottom: 0.5em;
+		width: 60%;
+		max-width: 703px;
+	}
+	.uudised {
+		opacity: 0;
+		font-size: 2em;
+		letter-spacing:1.24em;
+		margin-right: -1.24em;
+		line-height: 1em;
+		text-transform: uppercase;
+		color: rgba(34, 34, 34, 1);
+		font-weight: 300;
+	}
+	.push {
+		height: 4.84em;
+	}
+	#footer {
+		opacity: 0;
+		color: rgba(0, 0, 0, 1);
+		font-size: 1em;
+		line-height: 1.5em;
+		font-weight: 400;
+		padding-top: 1.67em;
+		padding-bottom: 1.67em;
+		text-align: center;
+	}
+
+/***** GLOBAL CLASSES *****/
+
+	.center {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.clear {
+		clear: both;
+	}
+	.push {
+		margin-top: 29px;
+	}
+
+	::selection {
+		background: rgb(92, 190, 154); /* Safari */
+		}
+	::-moz-selection {
+		background: rgb(92, 190, 154); /* Firefox */
+	}
+
+/* ============================= */
+/* ! Layout for mobile version */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+	#r1 {
+		font-size: 1em;
+	}
+	#r2 {
+		font-size: 1.3em;
+	}
+	.uudised {
+		font-size: 0.75em;
+	}
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4 */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+}

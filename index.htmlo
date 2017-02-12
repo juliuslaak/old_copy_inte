@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="et">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Intelige &middot; uudised</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+</head>
+
+
+<body>
+
+	<div id="wrapper" class="container">
+		<div class="row" description="heading and tagline">
+			<div class="twelvecol">
+				<h1 id="r1" class="kevad center">Uudised</h1>
+				<h1 id="r2" class="kevad center">Arvamused</h1>
+				<img id="int" class="intelige center" src="images/raman.PNG" alt="Intelige" />
+				<div class="center">
+					<h2 id="r3" class="uudised">2014 kevad</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="push"></div>
+	</div>
+
+	<div id="footer" class="container">
+		<div class="row">
+			<div class="twelve center">
+				<div id="footerCopy">&copy; 2014 intelige.ee</div>
+			</div>
+		</div>
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+  jQuery("#r1").delay(1000).animate({ opacity: 1 }, 1500);
+  jQuery("#r2").delay(3000).animate({ opacity: 1 }, 1500);
+  jQuery("#int").delay(5000).animate({ opacity: 1 }, 3500);
+  jQuery("#r3").delay(8000).animate({ opacity: 1 }, 1500);
+  jQuery("#footer").delay(11000).animate({ opacity: 1 }, 1500);
+</script>
+
+</body>
+
+</html>
