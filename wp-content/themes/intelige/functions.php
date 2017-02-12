@@ -98,7 +98,7 @@ function get_cat_last_posts( $kategooria ){
 }
 
 // to get featured image description
-function the_post_thumbnail_caption() {
+function thumb_caption() {
   global $post;
 
   $thumbnail_id    = get_post_thumbnail_id($post->ID);

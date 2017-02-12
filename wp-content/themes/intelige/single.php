@@ -38,7 +38,7 @@ get_header(); ?>
 		                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" />
 		                    </div>
 		                </div>
-		                <div class="post_img_subtext"><?php the_post_thumbnail_caption(); ?></div>
+		                <div class="post_img_subtext"><?php thumb_caption(); ?></div>
 
 		                <p class="post_conc font-open"><?php echo get_post_meta(get_the_ID(), 'tutvustus', true);?></p>
 
